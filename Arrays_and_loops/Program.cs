@@ -44,7 +44,7 @@ while (exit != 1)
                         sumLine[i] += matrix[i,j];                        
                         Console.Write($"{matrix[i, j],4}  ");
                     }
-                    //sumColumn[i] += matrix[i, j];
+                    
                     Console.WriteLine($" ==> сумма элементов строки: {sumLine[i]}");
                     sum += sumLine[i];
                 }
